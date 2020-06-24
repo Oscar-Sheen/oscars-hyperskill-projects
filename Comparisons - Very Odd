@@ -1,0 +1,5 @@
+Enter_number_A = int(input())
+Enter_number_B = int(input())
+
+A_divided_by_B = Enter_number_A / Enter_number_B
+print(A_divided_by_B % 2 != 0)
