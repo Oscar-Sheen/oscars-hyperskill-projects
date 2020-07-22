@@ -1,0 +1,10 @@
+print("""Please enter a year and I will print whether
+the year is a leap year or an ordinary year.""")
+n = int(input("Enter here:"))
+if n % 4 == 0 and n % 100 != 0:
+    print("That's a Leap Year!")
+else:
+    if n % 400 == 0:
+        print("That's a Leap Year!")
+    else:
+        print("That's an Ordinary Year!")
