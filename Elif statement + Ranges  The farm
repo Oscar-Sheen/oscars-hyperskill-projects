@@ -1,0 +1,25 @@
+money = int(input())
+
+if money < 23:
+    print("None")
+
+elif money in range(23, 46):
+    print(money // 23, "chicken")
+
+elif money <= 677:
+    print(money // 23, "chickens")
+
+elif money in range(678, 1296):
+    print(money // 678, "goat")
+
+elif money in range(1296, 1296 * 2):
+    print(money // 1296, "pig")
+
+elif money in range(1296, 3848):
+    print(money // 1296, "pigs")
+
+elif money in range(3848, 6769):
+    print(money // 3848, "cow")
+
+elif money >= 6769:
+    print(money // 6769, "sheep")
