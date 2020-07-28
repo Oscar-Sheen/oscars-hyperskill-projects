@@ -1,0 +1,21 @@
+n1 = float(input())
+n2 = float(input())
+a1 = input()
+
+if n2 == 0.0 and a1 in ("/", "mod", "div"):
+    print("Division by 0!")
+
+elif a1 == "+":
+    print(n1 + n2)
+elif a1 == "-":
+    print(n1 - n2)
+elif a1 == "/":
+    print(n1 / n2)
+elif a1 == "*":
+    print(n1 * n2)
+elif a1 == "mod":
+    print(n1 % n2)
+elif a1 == "pow":
+    print(n1 ** n2)
+elif a1 == "div":
+    print(n1 // n2)
