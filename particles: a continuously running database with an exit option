@@ -1,0 +1,24 @@
+while True:
+    print("To exit at any time, please type: exit")
+
+    s = input("Please enter the Spin: ")
+    if s == "exit":
+        print("You've exited the program")
+        break
+    e = input("Please enter the Electric Charge: ")
+    if e == "exit":
+        print("You've existed the program")
+        break
+
+    if s == "1/2" and e == "-1/3":
+        print("Strange Quark")
+    elif s == "1/2" and e == "2/3":
+        print("Charm Quark")
+    elif s == "1/2" and e == "-1":
+        print("Electron Lepton")
+    elif s == "1/2" and e == "0":
+        print("Neutrino Lepton")
+    elif s == "1" and e == "0":
+        print("Photon Boson")
+    else:
+        print("We do not have that Particle in our database. Please contact the Chief Scientist.")
