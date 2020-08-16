@@ -1,0 +1,20 @@
+from random import seed
+n = int(input())
+seed(n)
+from random import randint
+print(randint(-100, 100))
+
+  #Alternatively I could have written the above code more simply, like this:
+
+
+import random
+n = int(input())
+random.seed(n)
+print(random.randint(-100, 100))
+
+  #Alternatively I could have written the code like this:
+
+from random import seed, randint
+n = int(input())
+seed(n)
+print(randint(-100, 100))
