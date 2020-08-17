@@ -1,0 +1,14 @@
+print("H A N G M A N")
+
+import random
+word_list = ["python", "java", "kotlin", "javascript"]
+random.shuffle(word_list)
+
+computer_selection = word_list[1]
+
+user_word = input("Guess the word:")
+
+if user_word == computer_selection:
+    print("You survived!")
+else:
+    print("You are hanged!")
