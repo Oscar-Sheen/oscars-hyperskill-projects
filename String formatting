@@ -1,0 +1,4 @@
+word = input()
+for punctuation in ",.!?":
+    word = word.replace(punctuation, "")
+print(word.lower())
