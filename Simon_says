@@ -1,0 +1,11 @@
+def what_to_do(instructions):
+    if instructions.startswith("Simon says"):
+        a = instructions.replace("Simon says", "")
+        print("I" + a)
+    elif instructions.endswith(" Simon says"):
+        a = instructions.replace(" Simon says", "")
+        a = instructions.lower()
+        print("I " + a)
+    else:
+        print("I won't do it!")
+what_to_do(input())
