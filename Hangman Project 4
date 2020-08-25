@@ -1,0 +1,8 @@
+import random
+list_name = ['python', 'java', 'kotlin', 'javascript']
+word = random.choice(list_name)
+print(word[:3] + "-" * (len(word) - 3))
+if input() == word:
+    print("You survived!")
+else:
+    print("You are hanged!")
